@@ -1,4 +1,4 @@
-# CS 230 – System Design 
+# CS 230 – Software Design 
 This repository contains coursework completed for CS 230 at Southern New Hampshire University.
 
 Reflection
