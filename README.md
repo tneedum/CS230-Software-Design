@@ -1,16 +1,12 @@
-# CS 230 – Software Design and Architecture
-
+# CS 230 – System Design 
 This repository contains coursework completed for CS 230 at Southern New Hampshire University.
 
-Project Focus:
-- System architecture analysis
-- Operating system platform recommendations
-- Storage and memory management evaluation
-- Distributed systems and networking analysis
-- Security design considerations
+Reflection
 
-Project Title:
-Draw It or Lose It – Software Design Expansion
-
-Author:
-Tierra Needum
+The Gaming Room was a client seeking to expand their existing Android-based game, Draw It or Lose It, into a web-based, cross-platform application. The client wanted a scalable, secure, and maintainable system that would allow multiple teams to compete in timed drawing-guessing rounds while accessing a large image library. The goal was to design a distributed application that could support multiple users simultaneously, enforce unique team and game names, and maintain game state efficiently across sessions.
+One area I performed particularly well in was evaluating platform options and recommending an appropriate system architecture. I clearly explained the advantages and disadvantages of different operating systems and environments, including Windows, macOS, Linux, and cloud-based deployment. I also effectively justified why a web-based solution using a client-server architecture would provide better scalability and accessibility compared to a single-platform application.
+Working through the software design document before coding was extremely helpful. It forced me to think through memory management, storage considerations, distributed system architecture, and security concerns before implementation. Planning elements such as unique identifiers, singleton patterns, and server-side data management made the coding phase more structured and intentional. The design document served as a roadmap, reducing confusion and rework during development.
+If I could revise one portion of my work, I would strengthen my explanation of scalability and cloud deployment strategies. While I addressed server environments and platform comparisons, I would expand further on load balancing, redundancy, and long-term system growth considerations. Adding more technical depth would make the document even stronger for professional portfolio purposes.
+To interpret the user’s needs, I focused on the client’s desire to expand accessibility and improve system reliability. I translated those needs into design decisions such as using a web-based architecture, maintaining centralized data storage, and enforcing object-oriented design principles. Considering user needs is essential because software exists to solve real-world problems. Without aligning technical decisions to business goals, the system may function correctly but fail to meet stakeholder expectations.
+My approach to designing software begins with analyzing requirements and identifying system constraints. I break the system into components, evaluate platform trade-offs, and consider performance, memory, and storage implications. I rely on structured design techniques such as UML modeling, object-oriented principles, and architectural evaluation before implementation. In the future, I would continue using these strategies while incorporating more iterative feedback and possibly agile-based refinements to ensure continuous improvement.
+This project strengthened my understanding of system architecture, distributed application design, and the importance of planning before implementation. It demonstrated how thoughtful design directly impacts scalability, maintainability, and overall software quality.
